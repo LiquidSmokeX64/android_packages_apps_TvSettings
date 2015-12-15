@@ -43,4 +43,7 @@ LOCAL_SRC_FILES := \
 
 include frameworks/base/packages/SettingsLib/common.mk
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
